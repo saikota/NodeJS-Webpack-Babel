@@ -1,10 +1,10 @@
 # Zeus
 Simple Task Scheduler with NodeJs 
 
-- Build Tools
--- Runs on Node
--- Scheduling using node-cron
--- Uses Webpack 4
+# Build Tools
+- Runs on Node
+- Scheduling using node-cron
+- Uses Webpack 4
 
 
 ## Installation
@@ -12,12 +12,6 @@ Simple Task Scheduler with NodeJs
 ```
 git clone https://github.com/saikota/NodeJS-Webpack-Babel.git
 npm install
-```
-
-## Config
-
-```
-/src/config
 ```
 
 ## Build development
@@ -37,3 +31,11 @@ npm run prod:build
 ```
 npm run zeus
 ```
+
+# Roadmap
+
+- [x] Setup NodeJs Workspace With Webpack
+- [ ] Integrate with node-cron
+- [ ] Open Selenium Browser at scheduled time
+- [ ] Scrape Text
+- [ ] Send out Alert
