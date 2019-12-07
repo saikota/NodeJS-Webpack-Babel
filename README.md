@@ -39,3 +39,4 @@ npm run zeus
 - [ ] Open Selenium Browser at scheduled time
 - [ ] Scrape Text
 - [ ] Send out Alert
+- [ ] Integrate with ShellJS Npm https://www.npmjs.com/package/shelljs
