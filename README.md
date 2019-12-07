@@ -2,9 +2,9 @@
 Simple Task Scheduler with NodeJs 
 
 - Build Tools
-Runs on Node
-Scheduling using node-cron
-Uses Webpack 4
+-- Runs on Node
+-- Scheduling using node-cron
+-- Uses Webpack 4
 
 
 ## Installation
