@@ -10,7 +10,7 @@ module.exports = {
     entry: {
         app: [
             "@babel/polyfill",
-            './src/app/index.js'
+            './src/zeus/index.js'
         ]
     },
     output: {
@@ -26,4 +26,9 @@ module.exports = {
             },
         ],
     },
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 9000
+    }
 };

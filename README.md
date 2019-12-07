@@ -1,4 +1,11 @@
-# NodeJS-Webpack-Babel
+# Zeus
+Simple Task Scheduler with NodeJs 
+
+- Build Tools
+Runs on Node
+Scheduling using node-cron
+Uses Webpack 4
+
 
 ## Installation
 
@@ -13,12 +20,6 @@ npm install
 /src/config
 ```
 
-## Run on development
-
-```
-npm run dev
-```
-
 ## Build development
 
 ```
@@ -29,4 +30,10 @@ npm run dev:build
 
 ```
 npm run prod:build
+```
+
+## Run on development
+
+```
+npm run zeus
 ```

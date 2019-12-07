@@ -1,15 +1,15 @@
 {
-  "name": "nodejswebpack",
+  "name": "zeus",
   "version": "1.0.0",
-  "description": "VinPro-NodeJS Base Source",
+  "description": "zeus task runner",
   "main": "index.js",
   "scripts": {
     "clear": "rm -rf build",
-    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/index.js",
-    "dev:build": "npm run clear && webpack",
-    "prod:build": "npm run clear && cross-env NODE_ENV=production webpack -p"
+    "dev:build": "npm run clear && webpack --watch",
+    "prod:build": "npm run clear && cross-env NODE_ENV=production webpack -p",
+    "zeus": "node build/app.dev.js"
   },
-  "author": "VinPro",
+  "author": "saikota",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
@@ -20,6 +20,7 @@
     "helmet": "^3.21.0",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.9.1",
+    "node-cron": "^2.0.3",
     "socket.io": "^2.3.0",
     "yup": "^0.27.0"
   },
