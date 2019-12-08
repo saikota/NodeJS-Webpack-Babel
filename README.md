@@ -35,7 +35,7 @@ npm run zeus
 # Roadmap
 
 - [x] Setup NodeJs Workspace With Webpack
-- [ ] Integrate with node-cron
+- [x] Integrate with node-cron
 - [ ] Open Selenium Browser at scheduled time
 - [ ] Scrape Text
 - [ ] Send out Alert
