@@ -22,6 +22,7 @@
     "morgan": "^1.9.1",
     "node-cron": "^2.0.3",
     "socket.io": "^2.3.0",
+    "x-ray": "^2.3.4",
     "yup": "^0.27.0"
   },
   "devDependencies": {
